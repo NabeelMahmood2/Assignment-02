@@ -11,6 +11,6 @@ func factorial(x *big.Int) *big.Int {
     if x.Cmp(big.NewInt(0)) == 0 {
         return n
     }
-    return n.Mul(x, factorial(n.Sub(x, n)))
+    return n.Mul(x, Factorial(n.Sub(x, n)))
 }
 

@@ -1,5 +1,5 @@
 //Package factorial shows the factorial of a given number
-package factorial
+package fact
 
 import (
     "math/big"
